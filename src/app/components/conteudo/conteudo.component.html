@@ -454,15 +454,18 @@
               <div class="relative w-full mb-3">
                 <label
                   class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                  htmlFor="email"
+                  htmlFor="medico"
                 >
-                  Email
+                  Médico
                 </label>
-                <input
-                  type="email"
-                  [(ngModel)]="email" class="border-0 px-3 py-3 text-black placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                  placeholder="Seu melhor e-mail"
-                />
+                <select
+                  [(ngModel)]="selectedMedico"
+                  class="border-0 px-3 py-3 text-black placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                  id="medico"
+                >
+                  <option value="" disabled [selected]="!selectedMedico">Escolha seu médico</option>
+                  <option *ngFor="let medico of medicos" [value]="medico.id">{{ medico.nome }}</option>
+                </select>
               </div>
 
               <div class="relative w-full mb-3">
@@ -489,3 +492,6 @@
 
 
 
+<a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-icon">
+  <img src="https://img.icons8.com/color/512/whatsapp.png" alt="WhatsApp" />
+</a>

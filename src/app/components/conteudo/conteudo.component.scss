@@ -1,0 +1,27 @@
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Fica acima de outros elementos */
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .whatsapp-icon img {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Altura do movimento de flutuação */
+    }
+
+
+
+
+
+    
+  }
