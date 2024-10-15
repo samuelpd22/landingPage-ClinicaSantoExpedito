@@ -1,27 +1,71 @@
-# ClinicaUltrassom
+<h1 align="center">
+    <h2 align="center">Santo Expedito Sonografia</h2>
+    
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+<h1 align="center">
+     <img  src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm96M2E0dzR2cGZ5MHplcjdiMDhkMWlqZGx4b2p4NXRvbGwxdmt0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y6Xf4GdTwPlX2lClo1/giphy.gif" >
+</h1>
 
-## Development server
+## [Live](https://landing-page-clinica-santo-expedito.vercel.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Indice
+- [Sobre](#-sobre)
+- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
+- [Como baixar o projeto](#como-baixar-projeto)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📖 Sobre
+Projeto **Santo Expedito Sonografia** é uma **landing-page** para uma clinica de ultrassonografia.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ⚡ Tecnologias utilizadas
 
-## Running end-to-end tests
+Projeto desenvolvido utilizando as seguintes tecnologias
+- [TypeScript](https://www.typescriptlang.org/)
+- [Angular 17+](https://angular.dev/)
+- [TailwindCSS](https://tailwindcss.com/) 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Como baixar projeto
 
-## Further help
+    $ git clone https://github.com/samuelpd22/landingPage-ClinicaSantoExpedito
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    $ cd landingPage-ClinicaSantoExpedito
+
+    $ npm i
+
+
+
+
+#### 1 - Apos baixalo execute dentro de sua pasta
+
+    npm install -D tailwindcss postcss autoprefixer
+
+    npx tailwindcss init
+
+#### 2 - Em seu arquivo tailwind.config.js cole
+
+    module.exports = {
+    content: [
+        "./src/**/*.{html,ts}",
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+    }
+
+#### 3 - Em seu arquivo styles.css cole
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+### 4 - Pronto para ser iniciado
+
+    ng serve
+
+
+Desenvolvido 🤍 por Samuel Patrocinio Drumond.
