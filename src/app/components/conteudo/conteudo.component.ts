@@ -22,4 +22,6 @@ export class ConteudoComponent {
     window.open(url, '_blank');
   }
 
+
+ 
 }
